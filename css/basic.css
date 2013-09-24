@@ -64,6 +64,29 @@ body{
     font-style:italic;
     line-height:20px;
 }
+#menu{
+    width:600px;
+    background-color:#51473d;
+}
+#menu ul{
+    width:600px;
+    background-color:#51473d;
+}
+#menu ul li{
+    float:left;
+}
+#content{
+   width:600px;
+   overflow:hidden;
+}
+#maincontent{
+    float:left;
+    width:360px;
+}
+#subcontent{
+    width:240px;
+    float:right;
+}
 /*
 Slut reset Css
 	<div id="container">
