@@ -2,6 +2,7 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
+
 */
 
 html, body, div, span, applet, object, iframe,
@@ -47,8 +48,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/*
-Slut reset Css*/
+/* Slut, Css återställning
+**************************************************
+*/
 body{
     font-family:"Verdana", Geneva, sans-serif;
     font-size:85%;
@@ -67,7 +69,7 @@ h2{
 }
 a{
     color:#797066;
-    font-size:120%;
+    font-size:150%;
 }
 #container{
     margin:auto;
@@ -84,11 +86,18 @@ a{
 }
 #menu{
     width:600px;
-    padding-top:200px;
+    padding-top:205px;
     background:#51473d url('pics/coffey.jpg') no-repeat right top;
     background-color:#51473d;
     overflow:hidden;
 }
+    #menu .active{
+        background-color:#eae7d2;
+        color:#000000;
+    }
+    #menu a{
+        display:none;
+    }
     #menu ul{
         padding-left:20px;
         width:580px;
@@ -99,16 +108,15 @@ a{
         background-color:#797066;
         float:left;
     }
-    #menu .active{
-        color:#000000;
-        background-color:#eae7d2;
-    }
-    #menu ul li a{
+
+    #menu ul li a {
         padding:10px 20px;
         display:block;
         text-decoration:none;
+        font-size:100%;
         color:#eae7d2;
     }
+
     #menu ul li a:hover{
         background-color:#9c9084;
     }
@@ -122,6 +130,9 @@ a{
     float:left;
     width:350px;
 }
+    #maincontent img{
+        float:left;
+    }
 #subcontent{
     width:220px;
     padding-left:5px;
@@ -131,7 +142,6 @@ a{
 }
     #subcontent h1{
         font-size:150%;
-        
     }
 #bottomcontent{
     clear: both;
@@ -140,13 +150,5 @@ a{
     font-size:95%;
     font-style:italic;
 }
-/*
-Slut reset Css
-	<div id="container">
-	<div id="topbar">	
-		<div id="menu">
-		<div id="content">
-		<div id="maincontent">
-		<div id="subcontent">
-		<div id="bottomcontent">*/
+
 
