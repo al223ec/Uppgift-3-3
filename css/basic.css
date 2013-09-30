@@ -84,6 +84,7 @@ a{
     font-size:95%;
     line-height:20px;
 }
+
 #menu{
     width:600px;
     padding-top:205px;
@@ -91,10 +92,10 @@ a{
     background-color:#51473d;
     overflow:hidden;
 }
-    #menu .active{
-        background-color:#eae7d2;
-        color:#000000;
-    }
+#menu .active a{
+    background-color:#eae7d2;
+    color:#51473d;
+}
     #menu a{
         display:none;
     }
@@ -120,7 +121,6 @@ a{
     #menu ul li a:hover{
         background-color:#9c9084;
     }
-
 #content{
     padding:10px;
     width:580px;
